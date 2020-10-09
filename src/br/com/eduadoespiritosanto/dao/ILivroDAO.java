@@ -2,11 +2,15 @@ package br.com.eduadoespiritosanto.dao;
 
 import br.com.eduadoespiritosanto.model.Livro;
 
-public class ILivroDAO {
+public interface ILivroDAO {
 
-	public void salvar (Livro livro) throws BibliotecaException{
+	
+		public static void salvar (Livro livro) throws BibliotecaException{
+			
+		}
+		
 		
 	}
+
 	
-}
 
