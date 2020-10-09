@@ -10,6 +10,7 @@ public class Livro {
 	String numeroPagina;
 	String resumoLivro;
 	String numeroISBN;
+	Integer id;
 	
 	
 	public String getNomeLivro() {
@@ -61,6 +62,14 @@ public class Livro {
 		this.numeroISBN = numeroISBN;
 	}
 	
+	
+	
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
 	public Livro(String nomeLivro, String nomeAutor, String nomeEditora, String numeroEdicao, String anoLancamento,
 			String numeroPagina, String resumoLivro, String numeroISBN) {
 		super();
@@ -74,6 +83,9 @@ public class Livro {
 		this.numeroISBN = numeroISBN;
 	}
 	
+	public Livro() {
+		
+	}
 	
 	@Override
 	public String toString() {
